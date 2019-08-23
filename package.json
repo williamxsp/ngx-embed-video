@@ -4,7 +4,6 @@
   "scripts": {
     "build": "ngc -p tsconfig.json",
     "lint": "tslint --force --project tsconfig.json src/*.ts",
-    "prepare": "tsc",
     "tsc": "tsc",
     "test": "karma start"
   },
